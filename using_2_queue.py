@@ -20,10 +20,10 @@ class Stack:
         if not self.queue_1:
             print("stack is empty".upper())
             return
-        for i in range(len(self.queue_1) - 1):
+        for _ in range(len(self.queue_1) - 1):
             self.queue_2.append(self.queue_1.pop(0))
         self.queue_1.pop()
-        for i in range(len(self.queue_2)):
+        for _ in range(len(self.queue_2)):
             self.queue_1.append(self.queue_2.pop(0))
 
     def display(self):
