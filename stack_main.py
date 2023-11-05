@@ -1,4 +1,5 @@
 # create stack using List concept
+
 #
 # stack = []
 # stack.append(10)
@@ -11,6 +12,14 @@
 #
 # print(stack[-1])
 # print(stack)
+
+# Time Complexity
+
+#    push - O(1)
+#    pop  - O(1)
+#    peek  - O(1)
+#    is_empty - O(1)
+
 
 class Stack:
     def __init__(self, size):
